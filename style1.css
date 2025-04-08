@@ -1,0 +1,71 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background-image: url("img/fondo-lila.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-style: italic;
+    background-color: rgb(175, 156, 180);
+    color: #58084e;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    color: #850874;
+    background-color: rgb(223, 175, 201);
+    text-align: center;
+}
+img{
+    border-radius: 80px;
+    height: 400px; 
+    display: block;
+    margin: 0 auto; 
+    border-color: black;
+    border-style: double; 
+}
+
+#navegacion{
+    text-align: center;
+}
+#sobremiclick{
+    background-color: rgb(184, 170, 182);
+    border-radius: 60px;
+    background-size: 90px;
+    position: sticky;
+}
+
+#hobbiesclick{
+    background-color: rgb(184, 170, 182);
+    border-radius: 60px;
+    background-size: 90px;
+    position: sticky;
+}
+
+#contactoclick{
+    background-color: rgb(184, 170, 182);
+    border-radius: 60px;
+    background-size: 90px;
+    position: sticky;
+}
+
+#lista{
+    list-style: none;
+    margin-right: 60px;
+}
+
+#enviar{
+    color: rgb(75, 7, 107);
+    background-color: lab(90.26% 4.77 1.7 / 0.452);
+}
+
+#mensaje-footer{
+    color: darkslategray;
+    font-size: small;
+}
+
+#regresar-inicio{
+    font-style: italic;
+}
